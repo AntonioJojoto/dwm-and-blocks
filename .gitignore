@@ -1,8 +1,8 @@
 # Prerequisites
 *.d
 # The programs
-dwm
-dwmblocks
+dwm/dwm
+dwm/dwmblocks
 # Object files
 *.o
 *.ko
