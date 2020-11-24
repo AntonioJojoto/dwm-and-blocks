@@ -3,10 +3,10 @@
 
 // Thinkpad
 
-/*
 static const Block blocks[] = {
 
 	{"CPU:", "CPU_thinkpad",								5,		0},
+	{"", "Battery",								5,		0},
 	{"MEM: ", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",	15,		0},
 
 	{"", "date | awk '{print $1,$2,$3}'",				360,		0},
@@ -15,13 +15,12 @@ static const Block blocks[] = {
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
 static char delim = '|';
-*/
 
 
 
 
 // Desktop
-
+/*
 static const Block blocks[] = {
 
 	{"CPU:", "CPU_desktop",								5,		0},
@@ -33,3 +32,4 @@ static const Block blocks[] = {
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
 static char delim = '|';
+*/
